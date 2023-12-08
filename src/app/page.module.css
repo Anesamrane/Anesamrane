@@ -60,4 +60,9 @@
     font-size: small;
     width: 90%;
   }
+  .detail h4{
+    color: #278C7A;
+    position: relative;
+    top: 2vh;
+  }
 }
