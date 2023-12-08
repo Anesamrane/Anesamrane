@@ -1,0 +1,63 @@
+
+.detail{
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 25vh;
+  color: #e6e6e6;
+  transform: translateX(-50%);
+}
+.about *{
+  transition: 0.3s;
+}
+.detail h1{
+  letter-spacing: 0.8vh;
+}
+.detail h4{
+  color: #278C7A;
+  position: relative;
+  top: 4vh;
+}
+.detail p{
+  font-size: small;
+  width: 60%;
+}
+
+.detail button{
+  border: 0.2vh solid #278C7A;
+  border-radius: 1vh;
+  outline: none;
+  padding: 3vh;
+  color: #e6e6e6;
+  background: none;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.detail button:hover{
+  background-color: #278C7A;
+
+}
+.detail hr{
+  transform: rotate(90deg);
+  width: 70vh;
+  position: absolute;
+  right: -250px;
+  top: 25vh;
+}
+
+
+
+@media (max-width: 768px) {
+  .detail{
+    width: 98%;
+    position: absolute;
+    top: 25vh;
+    color: #e6e6e6;
+    margin: 1vh;
+  }
+  .detail p{
+    font-size: small;
+    width: 90%;
+  }
+}
